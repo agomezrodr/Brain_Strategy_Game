@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#00032C"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+   >
+
+
+    <TextView
+        android:id="@+id/textView0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="How to play"
+        android:textStyle="italic"
+        android:textColor="#FFFFFF"
+        android:textSize="29dp" />
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To start the game click the button Start Playing, and immediately the game will start."
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="After the game start you will have 2 min to answer the 22 question that we made specially for you."
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The question will pop up in the top of the screen in withe color and the answers will be the buttons behind it. Be very careful when you choose your answer since once you press it, the system will take it as your final answer. "
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="If you answered all questions right, the congratulation screen will pop up. But if you miss one question, the game will be over and you will have to start again. If during the game you want to exit or start again you can simply click 'Exit' or press a wrong answer."
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hint: Remember to be smart and pay attention to everything!"
+        android:textColor="#F51212"
+        android:textSize="22dp" />
+
+</LinearLayout>
